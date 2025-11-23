@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Space+Mono:wght@400;700&display=swap');
+
+section {
+    background-image: url('../../../assets/img/about/backgroundBanner.png');
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+
+h1 {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+}
