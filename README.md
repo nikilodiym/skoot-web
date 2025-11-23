@@ -132,6 +132,57 @@ git checkout -b feature/my-feature
 
 Цей проєкт поширюється за ліцензією **MIT**.
 
+# 🌀 Інтерактивний футер
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="snake animation" />
+  <svg width="380" height="90" viewBox="0 0 380 90" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="g" x1="0" x2="1">
+        <stop offset="0" stop-color="#00AEEF"/>
+        <stop offset="1" stop-color="#7F00FF"/>
+      </linearGradient>
+      <filter id="f" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="6" result="b"/>
+        <feBlend in="SourceGraphic" in2="b"/>
+      </filter>
+    </defs>
+
+    <rect rx="14" width="100%" height="100%" fill="#0b0f14" opacity="0.7"></rect>
+
+    <g transform="translate(30,45)">
+      <circle cx="0" cy="0" r="10" fill="url(#g)" filter="url(#f)" opacity="0.95">
+        <animate attributeName="r" values="8;14;8" dur="2.4s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.9;0.4;0.9" dur="2.4s" repeatCount="indefinite" />
+      </circle>
+
+      <circle cx="80" cy="0" r="8" fill="#00AEEF" filter="url(#f)" opacity="0.85">
+        <animate attributeName="r" values="6;12;6" dur="2.2s" begin="0.3s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.85;0.35;0.85" dur="2.2s" begin="0.3s" repeatCount="indefinite" />
+      </circle>
+
+      <circle cx="160" cy="0" r="9" fill="#7F00FF" filter="url(#f)" opacity="0.9">
+        <animate attributeName="r" values="7;13;7" dur="2.6s" begin="0.6s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.9;0.45;0.9" dur="2.6s" begin="0.6s" repeatCount="indefinite" />
+      </circle>
+    </g>
+
+    <text x="260" y="55" font-family="Inter, Arial, sans-serif" font-size="14" fill="#ffffff" opacity="0.9">
+      Live preview 👇
+    </text>
+  </svg>
 </p>
+
+<p align="center">
+  <a href="https://github.com/nikilodiym/skoot-web" target="_blank">
+    <img src="https://github.com/nikilodiym.png" 
+         alt="Skoot Web preview"
+         width="300"
+         style="border-radius:12px;box-shadow:0 8px 30px rgba(0,0,0,0.6);" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Preview-Click_to_open-blue?style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/badge/UI-Animated-purple?style=for-the-badge" />
+</p>
+
