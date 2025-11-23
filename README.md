@@ -1,70 +1,136 @@
-# Getting Started with Create React App
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&color=00AEEF&center=true&vCenter=true&random=false&width=435&lines=Welcome+to+Skoot+Web;Modern+React+Interface;Smooth+UI+%2B+Fast+Performance" alt="Typing SVG" />
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18.2.0-61DAFB?style=for-the-badge&logo=react&logoColor=white" />
+  <img src="https://img.shields.io/badge/STATUS-Development-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
+  <img src="https://img.shields.io/github/last-commit/nikilodiym/skoot-web?style=for-the-badge" />
+</p>
 
-In the project directory, you can run:
+---
 
-### `npm start`
+# 🚀 Skoot Web
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Skoot Web** — це сучасний інтерфейс, створений для максимально зручної взаємодії з сервісом Skoot.  
+Це поєднання швидкості ⚡, стилю 🎨 та плавних UI-анімацій 🌀.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## ✨ Основні фічі
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 🔐 Авторизація та реєстрація  
+- 🎨 Адаптивний стильний UI  
+- ⚡ Плавні анімації інтерфейсу  
+- 🧩 Гнучка компонентна система  
+- 📱 Підтримка мобільних пристроїв  
+- 🌐 Робота з API  
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📂 Структура проекту
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+skoot-web/
+├── public/
+│   └── index.html
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── hooks/
+│   ├── utils/
+│   ├── App.js
+│   └── index.js
+└── package.json
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🚀 Запуск проекту
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 1️⃣ Клонування репозиторію
+```bash
+git clone https://github.com/nikilodiym/skoot-web.git
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 2️⃣ Перехід у папку
+```bash
+cd skoot-web
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 3️⃣ Встановлення залежностей
+```bash
+npm install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 4️⃣ Запуск локального сервера
+```bash
+npm start
+```
 
-## Learn More
+Проєкт відкриється тут:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+http://localhost:3000
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 📸 Приклади інтерфейсу
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<details>
+  <summary><b>🖼️ Розгорнути скріншоти</b></summary>
+  <br>
 
-### Analyzing the Bundle Size
+  ### 🔹 Головна сторінка
+  <img width="1890" height="856" alt="image" src="https://github.com/user-attachments/assets/8561990e-240e-4417-956d-ec8796f7c6c3" />
+ 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+  ### 🔹 Авторизація
+  <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/675387ca-607b-42bd-a484-fdaa0552f830" />
+ 
 
-### Making a Progressive Web App
+  ### 🔹 Компоненти
+  <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5a2426b4-e08f-4031-af76-82803fc105e7" />
+  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+</details>
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🔮 Плани на майбутнє
 
-### Deployment
+- 🌙 Темна / світла тема  
+- 🧑‍💼 Особистий кабінет  
+- 🧭 Admin panel  
+- 💬 Нотифікації  
+- 🚀 Оптимізація  
+- 🌀 Анімації переходів  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 🤝 Внесок у проект
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Pull Requests вітаються!
+
+1. Форк  
+2. Нова гілка:
+```bash
+git checkout -b feature/my-feature
+```
+3. Commit  
+4. Pull Request  
+
+---
+
+## ⚖️ Ліцензія
+
+Цей проєкт поширюється за ліцензією **MIT**.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="snake animation" />
+</p>
