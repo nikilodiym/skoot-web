@@ -146,26 +146,21 @@ git checkout -b feature/my-feature
         <feBlend in="SourceGraphic" in2="b"/>
       </filter>
     </defs>
-
     <rect rx="14" width="100%" height="100%" fill="#0b0f14" opacity="0.7"></rect>
-
     <g transform="translate(30,45)">
       <circle cx="0" cy="0" r="10" fill="url(#g)" filter="url(#f)" opacity="0.95">
         <animate attributeName="r" values="8;14;8" dur="2.4s" repeatCount="indefinite" />
         <animate attributeName="opacity" values="0.9;0.4;0.9" dur="2.4s" repeatCount="indefinite" />
       </circle>
-
       <circle cx="80" cy="0" r="8" fill="#00AEEF" filter="url(#f)" opacity="0.85">
         <animate attributeName="r" values="6;12;6" dur="2.2s" begin="0.3s" repeatCount="indefinite" />
         <animate attributeName="opacity" values="0.85;0.35;0.85" dur="2.2s" begin="0.3s" repeatCount="indefinite" />
       </circle>
-
       <circle cx="160" cy="0" r="9" fill="#7F00FF" filter="url(#f)" opacity="0.9">
         <animate attributeName="r" values="7;13;7" dur="2.6s" begin="0.6s" repeatCount="indefinite" />
         <animate attributeName="opacity" values="0.9;0.45;0.9" dur="2.6s" begin="0.6s" repeatCount="indefinite" />
       </circle>
     </g>
-
     <text x="260" y="55" font-family="Inter, Arial, sans-serif" font-size="14" fill="#ffffff" opacity="0.9">
       Live preview 👇
     </text>
