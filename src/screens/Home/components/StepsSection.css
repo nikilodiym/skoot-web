@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Space+Mono:wght@400;700&display=swap');
+
+.steps {
+    /* width: 100%; */
+    display: flex;
+    /* justify-content: center; */
+    gap: 80px;
+    padding: 60px 8%;
+    background: #ffffff;
+    margin-bottom: 100px;
+}
+
+.steps-img-wrap{
+    width: 120px;
+}
+
+.steps__item {
+    width: 380px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.steps__title {
+    font-family: "Space Mono", monospace;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+.steps__text {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 19px;
+    line-height: 1.6;
+    color: #939CAA;
+}

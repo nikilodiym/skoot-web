@@ -6,6 +6,7 @@
     font-family: 'Lexend Deca', sans-serif;
     color: #fff;
     position: relative;
+    margin-bottom: 160px;
 }
 
 .hero {
@@ -33,7 +34,7 @@
 
 }
 
-.hero-content-duo{
+.hero-content-duo {
     position: relative;
     z-index: 2;
     padding-left: 10%;
@@ -49,7 +50,7 @@
     margin-top: -130px;
 }
 
-.hero-content{
+.hero-content {
     display: flex;
     flex-direction: column;
 }
@@ -59,7 +60,7 @@
     max-width: 400px;
     margin-left: 60px;
     margin-top: 120px;
-    
+
 }
 
 .hero-title {
