@@ -1,10 +1,10 @@
 import React from "react";
-import "./Banner.css";
+import "./BannerAbout.css";
 
 export default function Banner() {
     return(
         <div className="about">
-            <section>
+            <section className="aboutBackgroundBanner">
                 <h1>About</h1>
             </section>
         </div>
