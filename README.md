@@ -91,7 +91,8 @@ http://localhost:3000
  
 
   ### 🔹 Авторизація
-  <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/675387ca-607b-42bd-a484-fdaa0552f830" />
+  ![200w](https://github.com/user-attachments/assets/3d858c7a-20fc-4646-917f-44b395019155)
+
  
 
   ### 🔹 Компоненти
