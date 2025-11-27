@@ -82,7 +82,7 @@
 
 .hero-btn {
     font-family: 'Space Mono', monospace;
-    background: #fcb72b;
+    background: #FCB72B;
     color: #ffffff;
     width: fit-content;
     padding: 14px 40px;
@@ -91,11 +91,13 @@
     font-size: 18px;
     font-weight: 700;
     cursor: pointer;
-    transition: background 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .hero-btn:hover {
-    background: #ffd15b;
+    background: none;
+    border: #FCB72B 3px solid;
+    color: #FCB72B;
 }
 
 .hero-slider-dots {

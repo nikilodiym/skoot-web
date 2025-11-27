@@ -67,7 +67,7 @@ export default function Footer() {
                     <div className="footer-nav">
                         <a href="/about"><span>About</span></a>
                         <a href="/location"><span>Location</span></a>
-                        <span>Careers</span>
+                        <a href="/careers"><span>Careers</span></a>
                     </div>
                 </div>
 

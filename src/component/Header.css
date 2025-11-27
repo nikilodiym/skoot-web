@@ -30,6 +30,11 @@ a{
     color: #4d4d4d;
     font-size: 16px;
     font-weight: 500;
+    transition: 0.3s;
+}
+
+.header-nav a:hover{
+    color: #FCB72B;
 }
 
 .header-btn {
@@ -42,4 +47,11 @@ a{
     cursor: pointer;
     color: #ffffff;
     border-radius: 4px;
+    transition: 0.3s;
+}
+
+.header-btn:hover{
+    background: none;
+    border: #FCB72B 3px solid;
+    color: #FCB72B;
 }
