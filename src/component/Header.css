@@ -1,12 +1,12 @@
 .header {
-    width: 81%;
+    max-width: 100%;
     padding: 10px 140px;
     display: flex;
     align-items: center;
     font-family: 'Space Mono', monospace;
     justify-content: space-between;
     background: #ffffff;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08); */
 }
 
 a{

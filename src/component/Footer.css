@@ -27,6 +27,11 @@
     gap: 20px;
 }
 
+.footer-left a{
+    text-decoration: none;
+    color: white;
+}
+
 .cta-btn {
     background: white;
     padding: 0 22px;
