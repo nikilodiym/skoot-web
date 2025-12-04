@@ -63,7 +63,7 @@ export default function Footer() {
 
             <footer className="footer">
                 <div className="footer-left">
-                    <h2 style={{ fontSize: "28px", margin: 0, fontFamily: 'Space Mono'}}><a href="/">scoot</a></h2> 
+                    <h2 className='title-footer-name'><a href="/">scoot</a></h2> 
                     <div className="footer-nav">
                         <a href="/about"><span>About</span></a>
                         <a href="/location"><span>Location</span></a>

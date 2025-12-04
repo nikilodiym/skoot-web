@@ -120,17 +120,20 @@
     }
 }
 
-@media (max-width: 560px) {
-    .hero-wrap {
-        padding: 28px 5%;
+@media (max-width: 768px){
+    .hero-left {
+        max-width: 100%;
+        text-align: center;
     }
 
-    .hero-title {
-        font-size: 28px;
+    .hero-right{
+        order: -1;
+        margin-bottom: 20px;
+        /* width: 450px; */
     }
 
-    .circle-wrap {
-        width: 240px;
-        height: 240px;
+    .hero-title-circle-img {
+        width: 100%;
+        font-size: 30px;
     }
 }

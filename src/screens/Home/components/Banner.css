@@ -154,26 +154,44 @@
 @media (max-width: 768px) {
     .hero {
         height: 100vh;
+        /* text-align: center; */
     }
 
     .hero-content {
-        padding-left: 24px;
-        padding-top: 100px;
-        max-width: 100%;
+        /* max-width: 100%; */
+        text-align: center;
+        padding-left: 0px;
+    }
+
+    .hero-content-duo{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .hero-slider-dots{
+        display: none;
     }
 
     .hero-title {
-        font-size: 40px;
+        font-size: 70px;
         letter-spacing: -1.8px;
     }
 
-    .hero-arrow-line {
-        display: none;
-        /* ховаємо стрілку на мобілці */
+    .hero-text{
+        font-size: 16px;
+        margin-bottom: 40px;
     }
 
     .hero-slider-dots {
         right: 24px;
         bottom: 40px;
     }
+
+    .line-arrow-hero{
+        display: none;
+    }
+
+    .hero-arrow-img{
+        display: none;
+    }    
 }
