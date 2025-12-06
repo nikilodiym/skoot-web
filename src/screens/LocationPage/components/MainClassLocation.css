@@ -100,3 +100,61 @@
     color: #FCB72B;
     border: 2px solid #FCB72B;
 }
+
+.edition-for-phone-img-location {
+    display: none;
+}
+
+.button-elevemt-phone-edition{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .map-wrapper {
+        width: 100%;
+        display: block;
+    }
+
+    .button-elevemt-phone-edition{
+        display: block;
+        text-align: center;
+    }
+
+    .button-elevemt-phone-edition button{
+        padding: 25px 100px;
+        margin-bottom: 20px;
+        width: 70%;
+        font-size: 18px;
+        font-weight: 600;
+        cursor: pointer;
+        font-family: 'Space Mono', monospace;
+        border: none;
+        background: #fcb62b49;
+    }
+
+    .edition-for-phone-img-location {
+        display: block;
+        width: 100%;
+        margin-bottom: 80px;
+    }
+
+    .img-location-main-screen{
+        display: none;
+    }
+
+    .bottom-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .left{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .left p {
+        margin-left: 0;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
