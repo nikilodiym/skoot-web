@@ -29,7 +29,7 @@ const FAQ = () => {
             a: "Yes, please do! All cities have different laws. But we strongly strongly strongly recommend always wearing a helmet regardless of the local laws."
         },
         {
-            q: "How about the rules & regulations?",
+            q: "How about the rules?",
             a: "Follow local traffic rules, use bike lanes, and ride carefully."
         },
         {

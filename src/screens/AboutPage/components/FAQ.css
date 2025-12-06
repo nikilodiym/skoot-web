@@ -59,7 +59,7 @@
     transition: background-color 0.35s ease;
 }
 
-.faq__question:hover{
+.faq__question:hover {
     background-color: #FFF4DF;
 }
 
@@ -97,23 +97,26 @@
 
 /* ——— Responsive ——— */
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
     .faq__section {
         flex-direction: column;
-        gap: 20px;
+        gap: 40px;
+    }
+
+    .faq {
+        text-align: center;
+    }
+
+    .faq__item {
+        margin-left: 15px;
+        width: 400px;
+    }
+
+    .faq__answer{
+        text-align: start;
     }
 
     .faq__subtitle {
         font-size: 26px;
-    }
-}
-
-@media (max-width: 600px) {
-    .faq__title {
-        font-size: 32px;
-    }
-
-    .faq__question {
-        font-size: 16px;
     }
 }
