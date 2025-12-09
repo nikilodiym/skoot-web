@@ -51,3 +51,27 @@
     border: #FCB72B 1px solid;
     color: #FCB72B;
 }
+
+@media (max-width: 768px) {
+
+    .jobs-container{
+        padding: 0 20px;
+    }
+
+    .job-info h3 {
+        font-size: 18px;
+    }
+
+    .job-card {
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        width: 320px;
+    }
+
+    .apply-btn {
+        width: 100%;
+        text-align: center;
+    }
+}
