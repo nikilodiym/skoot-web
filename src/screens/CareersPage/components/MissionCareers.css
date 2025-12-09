@@ -48,6 +48,7 @@
 }
 
 .learn-btn-mission-sect {
+    border: none;
     display: inline-block;
     background: #f2b22a;
     transition: all 0.3s ease;

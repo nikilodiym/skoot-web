@@ -13,7 +13,14 @@ export default function MobilityAboutSection() {
             <div className="mobil-left">
                 <h2 className="mobil-title-circle-img">Better urban <br /> living</h2>
                 <p className="mobil-desc">We’re helping connect cities and bring people closer together. Our scooters are also fully-electric and we offset the minimal carbon footprint for each ride.</p>
-                <a className="learn-btn-mobil-sect" href="#">Learn More</a>
+                <div className="btn-wrapper">
+                    <a className="learn-btn-mobil-sect" href="#">Learn More</a>
+                    <div className="hover-info">
+                        Our telemetry system shows real-time speed, distance, trip history,
+                        riding time and many more helpful stats directly inside the app.
+                    </div>
+                </div>
+
             </div>
         </section>
     )

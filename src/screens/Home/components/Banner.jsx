@@ -39,11 +39,11 @@ export default function Banner() {
                 </div>
 
                 {/* Індикатори слайдера */}
-                <div className="hero-slider-dots">
+                {/* <div className="hero-slider-dots">
                     <span className="dot"></span>
                     <span className="dot"></span>
                     <span className="dot active"></span>
-                </div>
+                </div> */}
             </section>
         </div>
     );

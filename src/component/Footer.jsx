@@ -14,7 +14,7 @@ export default function Footer() {
                     <h2 className="cta-title">Sign up and<br />Scoot off today</h2>
 
                     <div className="cta-buttons">
-                        <a href="#" className="cta-btn">
+                        <a href="https://www.apple.com/app-store/" className="cta-btn">
                             <img src={appleLogo} alt="AppStore" height={28} />
                             <div className="block-footer-text">
                                 {/* <p className="mini-text-button">Available on the</p> */}
@@ -23,7 +23,7 @@ export default function Footer() {
 
                         </a>
 
-                        <a href="#" className="cta-btn">
+                        <a href="https://play.google.com/store/games?hl=ru&pli=1" className="cta-btn">
                             <img src={googleLogo} alt="Google Play" height={28} />
                             GooglePlay
                         </a>
@@ -63,7 +63,7 @@ export default function Footer() {
 
             <footer className="footer">
                 <div className="footer-left">
-                    <h2 className='title-footer-name'><a href="/">scoot</a></h2> 
+                    <h2 className='title-footer-name'><a href="/">scoot</a></h2>
                     <div className="footer-nav">
                         <a href="/about"><span>About</span></a>
                         <a href="/location"><span>Location</span></a>
@@ -72,9 +72,9 @@ export default function Footer() {
                 </div>
 
                 <div className="footer-social">
-                    <span><img src={facebookLogo} alt="facebookLogo" /></span>
-                    <span><img src={twitterLogo} alt="twitterLogo" /></span>
-                    <span><img src={instagramLogo} alt="instagramLogo" /></span>
+                    <a href="https://www.facebook.com/?locale=ru_RU"><span><img src={facebookLogo} alt="facebookLogo" /></span></a>
+                    <a href="https://x.com/?lang=ru"><span><img src={twitterLogo} alt="twitterLogo" /></span></a>
+                    <a href="https://www.instagram.com"><span><img src={instagramLogo} alt="instagramLogo" /></span></a>
                 </div>
             </footer>
         </>

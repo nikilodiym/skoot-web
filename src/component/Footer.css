@@ -43,9 +43,12 @@
     color: #333;
     font-weight: 700;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s;
 }
 
-
+.cta-btn:hover{
+    transform: scale(1.05);
+}
 
 .cta-arcs {
     position: absolute;
@@ -96,6 +99,10 @@
     display: flex;
     gap: 20px;
     font-size: 22px;
+}
+
+.footer-social a{
+    cursor: pointer;
 }
 
 /* .block-footer-text{

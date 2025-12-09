@@ -105,22 +105,138 @@
     display: none;
 }
 
-.button-elevemt-phone-edition{
+.button-elevemt-phone-edition {
     display: none;
 }
 
+.city {
+    position: absolute;
+    background: #f4ad31;
+    padding: 10px 20px;
+    border-radius: 6px;
+    /* font-family: "Roboto", sans-serif; */
+    font-weight: 600;
+    font-family: 'Space Mono', monospace;
+    cursor: pointer;
+    color: #495567;
+    transition: 0.25s ease;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* hover анімація */
+.city:hover {
+    transform: translateY(-6px) scale(1.05);
+    background: #ffbd42;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.22);
+}
+
+/* координати */
+.city-newyork {
+    top: 38%;
+    left: 20%;
+}
+
+.city-london {
+    top: 23%;
+    left: 46%;
+}
+
+.city-yokohama {
+    top: 31%;
+    left: 78%;
+}
+
+.city-jakarta {
+    top: 58%;
+    left: 71%;
+}
+
+.overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    animation: fadeIn 0.3s ease;
+}
+
+.contact-window {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 1000;
+    transform: translate(-50%, -50%) scale(0.9);
+    background: #fff7e0;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.25);
+    animation: popIn 0.3s ease forwards;
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+}
+
+.center-content-contacts{
+    text-align: start;
+}
+
+.contact-window h2 {
+    color: #fcb72b;
+    margin-bottom: 30px;
+}
+
+.contact-window button {
+    margin-top: 15px;
+    padding: 15px 112px;
+    background: #fcb72b;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.2s;
+    color: white;
+}
+
+.contact-window button:hover {
+    background: #ffbd42;
+    transform: scale(1.05);
+}
+
+/* animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes popIn {
+    0% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.85);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+
 @media (max-width: 768px) {
+    .city{
+        display: none;
+    }
     .map-wrapper {
         width: 100%;
         display: block;
     }
 
-    .button-elevemt-phone-edition{
+    .button-elevemt-phone-edition {
         display: block;
         text-align: center;
     }
 
-    .button-elevemt-phone-edition button{
+    .button-elevemt-phone-edition button {
         padding: 25px 100px;
         margin-bottom: 20px;
         width: 70%;
@@ -138,7 +254,7 @@
         margin-bottom: 80px;
     }
 
-    .img-location-main-screen{
+    .img-location-main-screen {
         display: none;
     }
 
@@ -147,7 +263,7 @@
         align-items: flex-start;
     }
 
-    .left{
+    .left {
         flex-direction: column;
         align-items: flex-start;
     }

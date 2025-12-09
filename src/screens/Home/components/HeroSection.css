@@ -48,12 +48,11 @@
     padding: 12px 22px;
     border-radius: 4px;
     text-decoration: none;
-    /* font-weight: 700; */
     letter-spacing: 0.6px;
     transition: all 0.3s ease;
 }
 
-.learn-btn:hover{
+.learn-btn:hover {
     background-color: white;
     color: #FCB72B;
     border: 1px solid #FCB72B;
@@ -68,7 +67,6 @@
     min-width: 360px;
 }
 
-/* circle image container */
 .circle-wrap {
     width: 420px;
     height: 420px;
@@ -87,18 +85,44 @@
     display: block;
 }
 
-/* decorative yellow arrow/box */
 .decor-svg {
     position: absolute;
     bottom: -22px;
-    /* pushes arrow below circle for similar composition */
     left: 12px;
-    /* shift a bit to the left */
     width: 420px;
     pointer-events: none;
 }
 
-/* make layout responsive */
+.btn-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.hover-info {
+    position: absolute;
+    top: 110%;
+    font-family: 'Lexend Deca', sans-serif;
+    left: 0;
+    width: 280px;
+    /* background: #fcb62b8d; */
+    padding: 15px 18px;
+    border-radius: 8px;
+    color: #939CAA;
+    font-size: 15px;
+    line-height: 1.4;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transform: translateY(10px);
+    pointer-events: none;
+    transition: 0.3s ease;
+}
+
+.btn-wrapper:hover .hover-info {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
 @media (max-width: 980px) {
     .hero-wrap {
         padding: 36px 6%;
@@ -120,16 +144,15 @@
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
     .hero-left {
         max-width: 100%;
         text-align: center;
     }
 
-    .hero-right{
+    .hero-right {
         order: -1;
         margin-bottom: 20px;
-        /* width: 450px; */
     }
 
     .hero-title-circle-img {
