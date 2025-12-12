@@ -1,5 +1,7 @@
 import React from "react";
 import "./JobsList.css";
+import { useState } from "react";
+import RegistrationModal from "./RegistrationModal";
 
 const jobs = [
     { title: "General Manager", location: "Jakarta, Indonesia" },
@@ -11,6 +13,7 @@ const jobs = [
 ];
 
 export default function JobsList() {
+    const [isOpen, setIsOpen] = useState(false);
     return (
         <div className="jobs-container">
             {jobs.map((job, index) => (
@@ -20,9 +23,13 @@ export default function JobsList() {
                         <p>{job.location}</p>
                     </div>
 
-                    <button className="apply-btn">Apply</button>
+                    <button className="apply-btn" onClick={() => setIsOpen(true)}>Apply</button>
                 </div>
             ))}
+            <RegistrationModal
+                isOpen={isOpen}
+                onClose={() => setIsOpen(false)}
+            />
         </div>
     );
 }

@@ -235,6 +235,14 @@
         display: block;
         text-align: center;
     }
+    
+    .button-elevemt-phone-edition a{
+        text-decoration: none;
+        color: #495567;
+        font-size: 18px;
+        font-weight: 600;
+        font-family: 'Space Mono', monospace;
+    }
 
     .button-elevemt-phone-edition button {
         padding: 25px 100px;
