@@ -130,6 +130,10 @@
         gap: 28px;
     }
 
+    .hover-info{
+        display: none;
+    }
+
     .hero-right {
         min-width: auto;
     }

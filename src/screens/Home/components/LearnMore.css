@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Space+Mono:wght@400;700&display=swap');
+
+@media (max-width: 768px) {
+    .learnMoreBackgroundBanner {
+        background-image: url('../../../assets/img/about/backgroundBanner.png');
+        height: 200px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        display: flex;
+        align-items: center;
+        padding: 0px 8%;
+        margin-bottom: 120px;
+    }
+
+    .main-learn-more{
+        padding: 0 20px;
+        margin-bottom: 120px;
+    }
+
+    h1 {
+        font-family: 'Space Mono', monospace;
+        font-weight: 700;
+        font-size: 40px;
+        color: #FFFFFF;
+        margin-bottom: 1rem;
+    }
+
+    .learn-more-desc {
+        color: #97a3ad;
+        line-height: 1.6;
+        font-family: 'Lexend Deca', sans-serif;
+        margin-bottom: 26px;
+    }
+
+    .hero-left {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .hero-right {
+        order: -1;
+        margin-bottom: 20px;
+    }
+
+    .hero-title-circle-img {
+        width: 100%;
+        font-size: 30px;
+    }
+}

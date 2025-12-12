@@ -8,6 +8,7 @@ import Location from "../src/screens/LocationPage/Location";
 import Careers from "../src/screens/CareersPage/Careers";
 
 import ScrollTop from "./assets/scroll/ScrollTop";
+import LearnMore from "./screens/Home/components/LearnMore";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/location" element={<Location />} />
         <Route path="/careers" element={<Careers />} />
+        <Route path="/learn" element={<LearnMore />} />
       </Routes>
     </BrowserRouter>
   );

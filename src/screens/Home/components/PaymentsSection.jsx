@@ -10,7 +10,7 @@ export default function PaymentsSection() {
                 <h2 className="hero-title-circle-img">Zero hassle <br /> payments</h2>
                 <p className="hero-desc">Our payment is as easy as one two three. We accept most credit cards and debit cards. You can also link your PayPal account inside the app. Need to pay later? No worries! You can defer payment for up to a month.</p>
                 <div className="btn-wrapper">
-                    <a className="learn-btn" href="#">Learn More</a>
+                    <a className="learn-btn" href="/learn">Learn More</a>
                     <div className="hover-info">
                         Our telemetry system shows real-time speed, distance, trip history,
                         riding time and many more helpful stats directly inside the app.

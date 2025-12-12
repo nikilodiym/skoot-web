@@ -17,7 +17,7 @@ export default function HeroWithCircleImage() {
                 </p>
 
                 <div className="btn-wrapper">
-                    <a className="learn-btn" href="#">Learn More</a>
+                    <a className="learn-btn" href="/learn">Learn More</a>
 
                     <div className="hover-info">
                         Our telemetry system shows real-time speed, distance, trip history,

@@ -46,7 +46,7 @@
     transition: transform 0.2s;
 }
 
-.cta-btn:hover{
+.cta-btn:hover {
     transform: scale(1.05);
 }
 
@@ -101,9 +101,25 @@
     font-size: 22px;
 }
 
-.footer-social a{
+.footer-social a {
     cursor: pointer;
 }
+
+.footer-social img{
+    transition: all 0.3s ease;
+}
+
+.footer-social img:hover {
+    transform: scale(1.30);
+}
+
+.footer-nav a {
+    transition: color 0.3s;
+}
+
+.footer-nav a:hover {
+        color: #FCB72B;
+    }
 
 /* .block-footer-text{
     display: block;
@@ -155,7 +171,7 @@
         justify-content: center;
     }
 
-    .footer-social span img{
+    .footer-social span img {
         width: 30px;
     }
 

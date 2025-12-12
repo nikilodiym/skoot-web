@@ -18,10 +18,10 @@ export default function MainClassLocatio() {
                 <div className="city city-jakarta">Jakarta</div>
 
                 <div className="button-elevemt-phone-edition">
-                    <button>New York</button>
-                    <button>London</button>
-                    <button>Jakarta</button>
-                    <button>Yokohama</button>
+                    <a href="https://www.nyc.fr/sejour/infos-pratiques/histoire-new-york/"><button>New York</button></a>
+                    <a href="https://www.history.com/articles/london-england"><button>London</button></a>
+                    <a href="https://liberia.klm.com/travel-guide/destinations/asia/indonesia/jakarta"><button>Jakarta</button></a>
+                    <a href="https://japansociety.org/culture-community/kanagawa/tourism-resources/yokohama/"><button>Yokohama</button></a>
                 </div>
             </div>
 
